@@ -1,26 +1,26 @@
-console.log("Connected!")
+console.log("Connected!");
 // YOU WILL MODIFY THIS FUNCTION TO GET THE PROGRAM TO WORK
 const wordCounter = (value) => {
   // Type into the input and press submit, you will see the value you entered in your console
   let text = textarea.value;
-  text =text.trim();
+  text = text.trim();
   const words = text.split(/\W+/g);
-  
+
   console.log(value);
 
   if (value) {
-    // COMPLETE THE LOGIC 
-    wordCount.innerHTML = `Word Count: ${words.length}`; 
+    // COMPLETE THE LOGIC
+    wordCount.innerHTML = `Word Count: ${words.length}`;
   } else {
     // if the value is empty, set the error message value to "Please input text"
     error.innerHTML = "Please input text"; // UPDATE THIS
   }
-}
+};
 
 // OPTIONAL CHALLENGE
 const toggleMode = (btnText) => {
   // complete the function
-}
+};
 
 // ************************************************ //
 // **** DO NOT MODIFY THE CODE BELOW THIS LINE **** //
