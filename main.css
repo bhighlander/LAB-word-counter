@@ -1,0 +1,29 @@
+body {
+  width: 90%;
+  margin: auto;
+  font: 1em Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  box-sizing: border-box;
+  font: inherit;
+  font-size: 1rem;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 3px;
+  font: 1.5em inherit;
+  border-radius: 5px;
+}
